@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DojoSurvey</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body> 
+    <div class="wrapper">
+        <form action="result" method="post">
+       <p> Your Name:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="text" name="name"></p>
+       <p> Dojo Location:&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; 
+        <select name = "Location">
+            <option value="San Jose">San Jose</option>
+            <option value="Seattle">Seattle</option>
+         </select></p>
+        <p>Favorite Langauge:&emsp; &emsp;&emsp;
+        <select name="langauge">
+            <option value="python">Python</option>
+            <option value="javascript">JavaScript</option>
+            <option value="C#">C#</option>
+            <option value="Fortran">Fortran</option>
+        </select></p>
+        <p>Comment (optional):<br>
+        <textarea name='comment'rows="7.5" cols="60"></textarea>
+        </p>
+        <button type="submit">Button</button>
+        </form>
+    </div>
+</body>
+</html>
